@@ -109,6 +109,7 @@ npm run export
    Copy-Item "$Source\.gitignore" -Destination "$Dest\" -Force
    Copy-Item "$Source\next.config.js" -Destination "$Dest\" -Force
    Copy-Item "$Source\package.json" -Destination "$Dest\" -Force
+   Copy-Item "$Source\package-lock.json" -Destination "$Dest\" -Force
    Copy-Item "$Source\tsconfig.json" -Destination "$Dest\" -Force
    Copy-Item "$Source\vercel.json" -Destination "$Dest\" -Force
    ```
